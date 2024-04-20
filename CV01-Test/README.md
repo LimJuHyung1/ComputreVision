@@ -9,3 +9,7 @@
 ## Thresholding triangle filter noise example
 + ##### 삼각형 모양의 임계값을 자동으로 완성하여 이미지를 이진화
 ![Adaptive thresholding Haruhi image](./Images/Triangle_binarization_algorithm_applying_a_Gaussian_filter.PNG)
+
+## Thresholding bgr example
++ ##### 각 채널별로 이진화를 시켜 통합하여 이미지를 생성
+![Adaptive thresholding Haruhi image](./Images/Thresholding_BGR_images.PNG)
