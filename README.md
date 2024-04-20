@@ -4,4 +4,4 @@
 
 ## Thresholding otsu example
 + ##### 최적의 임계값을 찾아 이진화
-![Adaptive thresholding Haruhi image](./Images/Otsu's_binarization_nagato.PNG)
+<img src="/Images/Otsu's_binarization_nagato.PNG" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="Adaptive thresholding Haruhi image"></img>
