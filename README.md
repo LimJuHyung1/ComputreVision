@@ -1,2 +1,2 @@
 ## Adaptive thresholding example
-![Adaptive thresholding Haruhi image](./Adaptive_thresholding_haruhi.PNG)
+![Adaptive thresholding Haruhi image](./Images/Adaptive_thresholding_haruhi.PNG)
