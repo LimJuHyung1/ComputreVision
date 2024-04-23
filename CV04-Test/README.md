@@ -10,3 +10,10 @@
 + ##### 숫자가 클수록 면적이 넓다
 ![Contours Sort lovelive](./Images/contour_sort_love_live.PNG)
 - - -
+## arcLength example
++ ##### cv2.arcLength(contour, closed=True) 함수를 통해 윤곽선의 길이를 구함.
++ ##### cv2.drawContours(contour_image, [contour], ...) 함수를 통해 컨투어 별로 색상을 다르게 생성
+![Origin saenai](./Images/origin_saenai.PNG)
+![Gray saenai](./Images/gray_saenai.PNG)
+![ArcLength saenai](./Images/arc_length_saenai.PNG)
+- - -
