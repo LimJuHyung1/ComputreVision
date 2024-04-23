@@ -1,7 +1,9 @@
-## Translation example
-+ ##### warpAffine() 함수를 사용하여 영상을 변환.
-+ ##### cv2.invertAffineTransform() 함수로 역행렬을 통해 원래 영상으로 복원할 수 있음.
-![Translation sorata](./Images/Translation_sorata.PNG)
+## contourArea example
++ ##### cv2.contourArea(contour) 함수로 contours의 각 contour 영역의 넓이를 구함.
++ ##### cv2.putText() 함수를 통해 각 contour 그룹에 해당하는 contourArea를 출력함.
+![Origin lovelive](./Images/origin_love_live.PNG)
+![Gray lovelive](./Images/gray_love_live.PNG)
+![ContourArea lovelive](./Images/contourArea_love_live.PNG)
 - - -
 ## Rotation example
 + ##### cv2.getRotationMatrix2D() 함수를 통해 Rotation 행렬 반환 받음.
