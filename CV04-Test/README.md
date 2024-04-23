@@ -5,10 +5,10 @@
 ![Gray lovelive](./Images/gray_love_live.PNG)
 ![ContourArea lovelive](./Images/contourArea_love_live.PNG)
 - - -
-## Rotation example
-+ ##### cv2.getRotationMatrix2D() 함수를 통해 Rotation 행렬 반환 받음.
-+ ##### center 좌표를 어디에 정하느냐에 따라 결과가 달라지는 것을 보여줌.
-![Rotation mashiro](./Images/Rotation_mashiro.png)
+## contours sort example
++ ##### contoursArea()의 결과를 정렬시켜 크기 순서를 화면에 출력
++ ##### 숫자가 클수록 면적이 넓다
+![Contours Sort lovelive](./Images/contour_sort_love_live.PNG)
 - - -
 ## Affine example
 + ##### cv2.getAffineTransform(pts_src, pts_dst) 함수를 통해 affine 행렬을 반환 받음.
