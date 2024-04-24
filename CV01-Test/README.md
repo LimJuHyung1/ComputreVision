@@ -4,7 +4,7 @@
 - - -
 ## Thresholding otsu example
 + ##### 최적의 임계값을 찾아 이진화
-<img src="/Images/Otsu's_binarization_nagato.PNG" width="70%" height="70%" title="px(픽셀) 크기 설정" alt="Thresholding otsu image"></img>   
+![Thresholding otsu image](./Images/Otsu's_binarization_nagato.PNG)   
 - - -
 ## Thresholding triangle filter noise example
 + ##### 삼각형 모양의 임계값을 자동으로 완성하여 이미지를 이진화
