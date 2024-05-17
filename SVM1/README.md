@@ -140,8 +140,28 @@ cv2.destroyAllWindows()
 
 ```
 ## <br/> 3. 결과
-
-![Translation sorata](./Images/Translation_sorata.PNG)
+> + ### 실행 초기 상태(gamma = 50, C = 100, Kernel = RBF)
+> ![Translation sorata](./Images/초기상태.PNG)
+> + ### gamma = 0.01
+> ![Translation sorata](./Images/감마0.PNG)
+> + ### gamma = 1
+> ![Translation sorata](./Images/감마1.PNG)
+> + ### gamma = 100
+> ![Translation sorata](./Images/감마100.PNG)
 - - -
+> + ### C = 0.01
+> ![Translation sorata](./Images/C0.PNG)
+> + ### C = 1000
+> ![Translation sorata](./Images/C1000.PNG)
+- - -
+> + ### Kernel = Linear
+> ![Translation sorata](./Images/선형.PNG)
+> + ### Kernel = Sigmoid
+> ![Translation sorata](./Images/시그모이드.PNG)
 
-
+## <br/> 4. 결론
+> + #### 단계 1: Trackbar를 적용시켜 여러 개의 그림을 동시에 보이게 하지는 못하였으나<br/>여러 값을 수정하면서 다른 상태의 그림들을 볼 수 있음.
+> + #### 단계 2: 클래스를 2개로 설정(수정 예정).
+> + #### 단계 3: gamma 수정 가능 및 화면 출력 완료.
+> + #### 단계 4: c 수정 가능 및 화면 출력 완료.
+> + #### 단계 5: 0: Linear, 1: Polynomial, 2: RBF, 3: Sigmoid<br/>1번은 오류로 인해 선택되어도 pyplot에 적용되지 않는 것 같음.
