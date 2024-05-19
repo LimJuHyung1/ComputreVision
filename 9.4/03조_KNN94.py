@@ -4,25 +4,25 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 
 N = 16
-T = 2
+T = 4
 K = 5   # 1 ~ 5 범위
 
 np.random.seed(370001)
 data = np.random.randint(0, 100, (N, 2)).astype(np.float32)
 
-'''
 # 3 : 7 비율
 labels = np.zeros((N, 1), dtype=np.float32)
 num_class_1 = int(N * 0.3)
 labels[:num_class_1] = 1
 rate = "3 : 7"
-'''
 
+'''
 # 5 : 5 비율
 labels = np.zeros((N, 1), dtype=np.float32)
 num_class_1 = N // 2
 labels[:num_class_1] = 1
 rate = "5 : 5"
+'''
 
 # 섞어서 랜덤하게 배치
 indices = np.random.choice(N, N, replace=False)

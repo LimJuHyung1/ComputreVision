@@ -141,23 +141,23 @@ cv2.destroyAllWindows()
 ```
 ## <br/> 3. 결과
 > + ### 실행 초기 상태(gamma = 50, C = 100, Kernel = RBF)
-> ![Translation sorata](./Images/초기상태.PNG)
+> ![Initial plot](./Images/초기상태.PNG)
 > + ### gamma = 0.01
-> ![Translation sorata](./Images/감마0.PNG)
+> ![gamma = 0.01 plot](./Images/감마0.PNG)
 > + ### gamma = 1
-> ![Translation sorata](./Images/감마1.PNG)
+> ![gamma = 1 plot](./Images/감마1.PNG)
 > + ### gamma = 100
-> ![Translation sorata](./Images/감마100.PNG)
+> ![gamma = 100 plot](./Images/감마100.PNG)
 - - -
 > + ### C = 0.01
-> ![Translation sorata](./Images/C0.PNG)
+> ![C = 0.01 plot](./Images/C0.PNG)
 > + ### C = 1000
-> ![Translation sorata](./Images/C1000.PNG)
+> ![C = 1000 plot](./Images/C1000.PNG)
 - - -
 > + ### Kernel = Linear
-> ![Translation sorata](./Images/선형.PNG)
+> ![Kernel = Linear plot](./Images/선형.PNG)
 > + ### Kernel = Sigmoid
-> ![Translation sorata](./Images/시그모이드.PNG)
+> ![Kernel = Sigmoid plot](./Images/시그모이드.PNG)
 
 ## <br/> 4. 결론
 > + #### 단계 1: Trackbar를 적용시켜 여러 개의 그림을 동시에 보이게 하지는 못하였으나<br/>여러 값을 수정하면서 다른 상태의 그림들을 볼 수 있음.
