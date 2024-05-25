@@ -1,3 +1,10 @@
+# 03조 (임주형,이세비,최하은)
+
+"""
+9.4 - query data point를 k=2, 4..일 때, 전 영역으로 확장하여 색칠하여 비교해 보아라.
+=> 전 영역의 포인트마다 knn 모델을 통해 색칠
+"""
+
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -7,6 +14,7 @@ K = 5   # 1 ~ 5 범위
 
 np.random.seed(370001)
 data = np.random.randint(0, 100, (N, 2)).astype(np.float32)
+
 '''
 # label 0 - 7 : label 1 - 3 비율
 labels = np.zeros((N, 1), dtype=np.float32)

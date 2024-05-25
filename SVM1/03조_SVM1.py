@@ -1,3 +1,10 @@
+# 03조 (임주형,이세비,최하은)
+
+"""
+SVM1 - gamma에 따른 분류 특성을 보여주는 사례와 같은 프로그램의 작성
+=> gamma, C, kernel에 따라 그림을 화면에 matplotlib로 도시
+"""
+
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
