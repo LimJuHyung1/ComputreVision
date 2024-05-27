@@ -5,6 +5,7 @@
 get_accuracy() 함수가 여기서(1_1_checking_knn_model_accuracy.py)는
 계속 50%대의 정확도로 고정되어 출력된다.
 어떤 오류가 숨겨져 있는지 원인을 파악하여 해결해 보자.
+=> get_accuracy 함수의 로직 파악 및 올바른 정확도 출력을 위한 코드
 """
 
 import cv2
@@ -57,7 +58,8 @@ def get_accuracy(predictions, labels):
     print(f'labels의 shape:              {labels.shape} ')
 
     # 예측된 레이블과 실제 레이블이 같은지 비교하여 정확도를 계산
-    accuracy = (np.squeeze(predictions) == labels).mean()
+    accuracy = (predictions == labels).mean() #방법1
+    # accuracy = (np.squeeze(predictions) == np.squeeze(labels)).mean() #방법2
 
     # 정확도를 퍼센트로 반환
     return accuracy * 100
