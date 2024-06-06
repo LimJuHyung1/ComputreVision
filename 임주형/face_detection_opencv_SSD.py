@@ -5,7 +5,7 @@ from matplotlib import pyplot as plt
 # 모델 및 영상 파일 경로
 caffe_model_path = "../ssd_models/res10_300x300_ssd_iter_140000_fp16.caffemodel"
 prototxt_path = "../ssd_models/deploy.prototxt"
-video_path = '../movie/musyoku.mp4'
+video_path = '동영상경로...'
 
 # 네트워크 로드
 net = cv.dnn.readNetFromCaffe(prototxt_path, caffe_model_path)
@@ -33,8 +33,6 @@ def detect_and_display(frame, confidence_threshold=0.7):
 
     return frame
 
-
-# 두 개의 서로 다른 confidence_threshold 값을 설정
 confidence_threshold = 0.3
 
 while True:
@@ -42,7 +40,6 @@ while True:
     if not ret:
         break
 
-    # 두 개의 프레임을 복사하여 각각 다른 threshold로 검출
     frame = detect_and_display(frame.copy(), confidence_threshold)
 
 
