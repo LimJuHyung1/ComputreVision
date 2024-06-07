@@ -34,7 +34,6 @@ def detect_and_display(frame, confidence_threshold=0.7):
     return frame
 
 
-# 두 개의 서로 다른 confidence_threshold 값을 설정
 confidence_threshold = 0.3
 
 while True:
@@ -42,9 +41,7 @@ while True:
     if not ret:
         break
 
-    # 두 개의 프레임을 복사하여 각각 다른 threshold로 검출
     frame = detect_and_display(frame.copy(), confidence_threshold)
-
 
     # 결과 표시
     cv.imshow('Face dectection using SSD', frame)
