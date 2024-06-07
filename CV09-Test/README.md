@@ -7,3 +7,9 @@
 + ##### cv.dnn.readNetFromCaffe(prototxt_path, caffe_model_path) - caffe 모델 구조와 prototxt 파일을 읽어 딥러닝 신경망을 생성
 + ##### confidence_threshold 수치 이상의 신뢰도를 가진 객체를 검출 시 화면에 표시
 ![face detection using SSD](./Images/face_detection_using_SSD.gif)
+- - -
+## face detection using dlib
++ ##### dlib.get_frontal_face_detector(): HOG(Histogram of Oriented Gradients) 기반의 얼굴 검출기를 반환
++ ##### detector(gray, up_scale): 이미지를 입력받아 얼굴을 검출.
++ ##### up_scale 인자는 이미지 크기를 확대할지 여부를 결정합니다.
+![face detection using dlib](./Images/face_detection_dlib_mushoku_tensei.PNG)
