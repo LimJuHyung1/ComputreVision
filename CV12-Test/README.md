@@ -27,4 +27,19 @@
 - - -
 > ## face detection opencv CNN images_crop
 > > ![blob from images cropping benten and oyuki](./Images/face_detection_DNN_cropping_The_Quintessential_Quintuplets.PNG)
-
+- - -
+# 1_1 opencv object classification alexnet
+> ## image classification opencv alexnet caffe
+> > + ##### cv2.dnn.readNetFromCaffe를 사용하여 사전 훈련된 Caffe 모델을 로드
+> > + ##### net.getPerfProfile() - 네트워크 소요 시간 반환
+> > + ##### preds[0] = 입력 이미지에 대한 각 클래스의 신뢰도 1차원 배열을 나타냄
+> > ![image classification opencv alexnet caffe](./Images/alexnet_basketball.PNG)
+- - -
+# 1_2 opencv object detection yolo4
+> ## opencv_yolo4
+> > + ##### net = cv2.dnn.readNet: YOLO4 가중치와 구성 파일을 로드
+> > + ##### layer_names = net.getLayerNames(): 모든 레이어의 이름을 반환
+> > + ##### unconnected_out_layers = net.getUnconnectedOutLayers(): 연결되지 않은 출력 레이어의 인덱스를 가져옴
+> > + ##### output_layers = [layer_names[i - 1] for i in unconnected_out_layers]: 출력 레이어의 이름 반환
+> > + ##### indexes = cv2.dnn.NMSBoxes: Non-max suppression을 적용하여 중복된 박스를 제거
+> > ![image detection opencv yolo4](./Images/yolo4_bocchi.PNG) 
