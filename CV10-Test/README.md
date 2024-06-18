@@ -10,7 +10,7 @@
 > > + ##### rects = detector(gray, 0) -> 0 - 업샘플링(높을수록 성능 올라감)
 > > + ##### detector() -> 이미지의 얼굴에 해당하는 경계상자 목록 반환
 > > + ##### shape = predictor(gray, rect) -> 이미지에서 얼굴 영역을 받아 랜드마크를 검출하여 반환
-> > ![landmarks detection video](./Images/landmarks_detection.mp4)
+> > ![landmarks detection video](./Images/landmarks_detection.gif)
 - - -
 # face tracking
 > ## face tracking DCF from image
@@ -24,5 +24,5 @@
 > ## face tracking DCF from video
 > > + ##### tracker.update(frame) - 상관 추적기의 update() 메서드는 새로운 프레임(frame)을 사용하여 추적기를 업데이트함
 > > + ##### tracker.get_position() - 추적된 객체의 위치를 가져옵니다 
-> > ![face tracking DCF video](./Images/face_tracking.mp4)
+> > ![face tracking DCF video](./Images/face_tracking.gif)
 
